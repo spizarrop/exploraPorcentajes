@@ -161,7 +161,7 @@ input[type="text"] {
 }
 
 select {
-    width: 218px;
+    width: 218px; /* 218px original*/
     padding: 8px;
     margin: 5px 0 0 0;
     border: 1px solid #ccc;
@@ -170,14 +170,14 @@ select {
 
 button[type="submit"] {
     display: block;
-    margin: 15px 0 0 0;
-    padding: 5px 0;
+    margin: 3% 0 0 0; /*15px*/
+    padding: 1% 0;  /*5px*/
     border: 1px solid;
     border-radius: 6px;
     font-size: 16px;
     background-color: #2196F3;
     color: white;
-    width: 218px;
+    width: 43.6%;   /* 218px original*/
 }
 
 button[type="submit"]:hover {
