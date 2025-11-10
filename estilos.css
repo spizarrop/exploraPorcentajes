@@ -1,6 +1,10 @@
+html{
+    width: 100%; /* 1425px */
+}
+
 /* Cuerpo de la página */
 body {
-    width: 100%; /* 1200px */
+    width: 84,21052631578947%; /* 1200px */
     margin: 0 auto;
     font: 16px Arial, sans-serif;
     background: #f4faff;
@@ -45,8 +49,9 @@ body {
     padding: 1.25%; /* 15px */
     border-radius: 10px;
     background: #d9f5d2;
-    height: 700px;
+    min-height: 700px;
     position: relative;
+    overflow: hidden;
 }
 
 #sidebar p {
@@ -72,7 +77,8 @@ body {
     padding: 1.25%; /* 15px */
     border-radius: 10px;
     background: #e6f0ff;
-    height: 700px;
+    min-height: 700px;
+    overflow: hidden;
 }
 
 #principal h2 {
